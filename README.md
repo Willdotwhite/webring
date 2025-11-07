@@ -1,36 +1,24 @@
-# Data People Writing Stuff Webring
+# Will's Simple Webring
 
-Because it's the late '90s again and the small internet is cool.
 A simple widget that lets you put your site into a linked list of other sites. 
-The list is curated by humans, as was done when search engines were crap, like they are now.
-It is a simple way for sites about a shared topic, data work in this case, to share some traffic with each other.
 
-Also, because it's the '90s, there's no intentional tracking code in this. 
-Github hosts the files so no analytics are available to managers. 
 The JS is dirt simple and you can see all it does is some regex on the list of sites and make links.
 
 _Based off [Onionring](https://garlic.garden/onionring)_
+_Forked from [randyau/datawebring](https://github.com/randyau/datawebring)
 
 # Joining the webring
 
-0. Make sure you fit the join criteria (below)
-1. Submit a pull request to `onionring-variables.js` (details below) to add your site to the list, the managers will review and merge as appropriate
-2. Copy/paste the little HTML code snippet in the Installation section to have the widget show up
-3. (Optional) The CSS is super basic. Feel free to locally override it.
+1. Submit a pull request to `onionring-variables.js` (details below) to add your site to the list
+2. Ping me to let me know you've done it
+3. Copy/paste the little HTML code snippet in the Installation section to have the widget show up
+4. (Optional) The CSS is super basic. Locally override it to style it for your site.
 
 # Join Criteria
 
-In general, we welcome all relevant sites, big or small. So long as it contributes even the slightest value to the data community.
+I know you, or someone I trust vouches for you :D
 
-1. You write about data related topics* most of the time. (like, ~66% of the time or more, OR there's a clear section of/way to find data related material)
-2. You create your own content or meaningfully curate the work of others
-3. The content is not spam, hateful, misleading, discriminatory, sexually explicit, illegal in the USA, or otherwise offends the sensibilities of the webring managers.
-4. Sites can be removed for any reason, with no warning or notice, at the discretion of the managers.
-5. There is NO requirement you have to post at any regular pace. Having static, evergreen, useful content is also fine! (e.g. a web-version of a book)
-6. There is NO limitation on how many sites a person can submit, so long as they are distinct sites.
-
-* What counts as a "data related topic"? Something that people who work with data would find interesting.
-This includes tools and tech, methods, academic studies and analyses, work processes, experiences, stories, tutorials, the job market, as well as meta discussions, memes, jokes. We take a broad interpretation.
+This is not a public webring (yet) but a webring of friends and the cool stuff they do.
 
 # Adding your site to the code
 
@@ -38,7 +26,7 @@ In [`onionring-variables.js`](https://github.com/randyau/datawebring/blob/main/o
 there is a variable `sites` at the top, just add your site to the list. That's it.
 
 Then just submit a Pull Request with your site information. 
-If you have trouble or don't know how to do it, please contact [Randy Au](https://bsky.app/profile/randyau.com) on BlueSky.
+If you have trouble or don't know how to do it, please let me know and I'll help.
 
 Once the PR is merged and GitHub Pages builds and updates the CDN, the widget on your site should be able to find its URL and know where it is in the ring.
 
@@ -52,9 +40,9 @@ Otherwise it displays text saying it hasn't been included in the webring yet.
 If your domain or a subdirectory is on the list, the widget should work for any subdirectory under that entry.
 
 ```
-<div id='data-ring-dot-list'>
-<script type="text/javascript" src="https://randyau.github.io/datawebring/onionring-variables.js"></script>
-<script type="text/javascript" src="https://randyau.github.io/datawebring/onionring-widget.js"></script>
+<div id='a-chill-little-data-ring'>
+<script type="text/javascript" src="https://willdotwhite.github.io/datawebring/onionring-variables.js"></script>
+<script type="text/javascript" src="https://willdotwhite.github.io/datawebring/onionring-widget.js"></script>
 </div>
 ```
 
@@ -63,12 +51,12 @@ If your domain or a subdirectory is on the list, the widget should work for any 
 You may **optionally** put the CSS into your HTML head section to format the widget. It works fine without it.
 
 Add this to the `<head> ... </head>` section for basic styling. Feel free to locally override the settings to suit your own taste.
-If you've got design and CSS skills (which Randy does not have), some help making a nicer CSS would be appreciated.
-The CSS mostly just lays out the elements and puts a light border. It should inheirit the host site's general background/font settings.
+
+I haven't edited the CSS yet, so I've no idea what the default looks like!
 
 
 ```
-<link rel="stylesheet" href="https://randyau.github.io/datawebring/onionring.css">
+<link rel="stylesheet" href="https://willdotwhite.github.io/datawebring/onionring.css">
 ```
 
 # How's it work?

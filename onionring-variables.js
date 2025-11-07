@@ -7,40 +7,21 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-    'https://www.randyau.com/',
-    'https://vickiboykis.com/',
-    'https://www.counting-stuff.com/',
-    'https://gecky.me/',
-    'https://qethanm.cc/datawebring/',
-    'https://mlops.systems/',
-    'https://e2eml.school/',
-    'https://blog.harterrt.com/',
-    'https://www.jessemostipak.com/',
-    'https://elliotgunn.github.io/',
-    'https://radbrt.com',
-    'https://simon.podhajsky.net/blog/',
-    'https://www.heltweg.org/',
-    'https://emilyriederer.com/',
-    'https://kylestratis.com',
-    'https://yanirseroussi.com/',
-    'https://www.eamoncaddigan.net/',
-    'https://karnwong.me/',
-    'https://aino-spring.com/',
-    'https://nycdata.substack.com/'
+    'https://badlydone.dev/',
 ];
 
 //the name of the ring
-var ringName = 'Data People Writing Stuff';
+var ringName = "The 'We Need A Name' Webring";
 
 /* the unique ID of the widget. two things to note:
  1) make sure there are no spaces in it - use dashes or underscores if you must
  2) remember to change 'webringid' in the widget code you give out and all instances of '#webringid' in the css file to match this value!*/
-var ringID = 'data-ring-dot-list';
+var ringID = 'a-chill-little-data-ring';
 
 //should the widget include a link to an index page?
 var useIndex = true;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = 'https://randyau.github.io/datawebring/index.html';
+var indexPage = 'https://willdotwhite.github.io/webring/index.html';
 
 //should the widget include a random button?
 var useRandom = true;
