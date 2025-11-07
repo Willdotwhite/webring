@@ -93,7 +93,7 @@ else {
       <span class='webring-links'>
         ${randomText}
         ${indexText}
-        <a href='https://github.com/randyau/datawebring/'>what is this?</a></span></td>
+        <a href='https://github.com/willdotwhite/webring/'>what is this?</a></span></td>
       <td class='webring-next'><a href='${sites[nextIndex]}'>next →</a></td>
     </tr>
   </table>

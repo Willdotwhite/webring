@@ -5,6 +5,7 @@ A simple widget that lets you put your site into a linked list of other sites.
 The JS is dirt simple and you can see all it does is some regex on the list of sites and make links.
 
 _Based off [Onionring](https://garlic.garden/onionring)_
+
 _Forked from [randyau/datawebring](https://github.com/randyau/datawebring)
 
 # Joining the webring
@@ -22,7 +23,7 @@ This is not a public webring (yet) but a webring of friends and the cool stuff t
 
 # Adding your site to the code
 
-In [`onionring-variables.js`](https://github.com/randyau/datawebring/blob/main/onionring-variables.js#L9), 
+In [`onionring-variables.js`](https://github.com/willdotwhite/webring/blob/main/onionring-variables.js#L9), 
 there is a variable `sites` at the top, just add your site to the list. That's it.
 
 Then just submit a Pull Request with your site information. 
@@ -41,8 +42,8 @@ If your domain or a subdirectory is on the list, the widget should work for any 
 
 ```
 <div id='a-chill-little-data-ring'>
-<script type="text/javascript" src="https://willdotwhite.github.io/datawebring/onionring-variables.js"></script>
-<script type="text/javascript" src="https://willdotwhite.github.io/datawebring/onionring-widget.js"></script>
+<script type="text/javascript" src="https://willdotwhite.github.io/webring/onionring-variables.js"></script>
+<script type="text/javascript" src="https://willdotwhite.github.io/webring/onionring-widget.js"></script>
 </div>
 ```
 
@@ -56,7 +57,7 @@ I haven't edited the CSS yet, so I've no idea what the default looks like!
 
 
 ```
-<link rel="stylesheet" href="https://willdotwhite.github.io/datawebring/onionring.css">
+<link rel="stylesheet" href="https://willdotwhite.github.io/webring/onionring.css">
 ```
 
 # How's it work?
