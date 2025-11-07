@@ -11,7 +11,7 @@ var sites = [
 ];
 
 //the name of the ring
-var ringName = "The 'We Need A Name' Webring";
+var ringName = 'We Need A Name';
 
 /* the unique ID of the widget. two things to note:
  1) make sure there are no spaces in it - use dashes or underscores if you must
