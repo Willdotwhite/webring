@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffffff;
+            text-align: center;
+        }
+
+        p {
+            color: #d3d3d3;
+        }
+
+        a {
+            color: #007bff;
+        }
+    </style>
+
+    <title>The 'We Need A Name' Webring Index</title>
+</head>
+<body>
+<h2>The 'We Need A Name' Webring Index</h2>
+<p>
+    This is the full list of all the sites participating in the webring.
+    All these sites are from people to write about data related topics.
+</p>
+
+<p>The ordering of the sites is completely arbitrary.</p>
+
+<p>If you're interested in learning more or joining the webring,
+    refer to <a href='https://github.com/willdotwhite/webring/'>https://github.com//willdotwhite/webring/</a> for
+    instructions.
+</p>
+
+<br/>
+
+<p>The current list is:</p>
+
+<div id='index'>
+    <pre id="output"></pre>
+    <script type="text/javascript">
+        fetch("https://willdotwhite.github.io/webring/data.json")
+            .then(async res => document.getElementById("output").textContent = JSON.stringify(await res.json(), undefined, 2))
+    </script>
+</div>
+
+<br/>
+
+<pre>
+&lt;div id='index'>
+    &lt;pre id="output">&lt;/pre>
+    &lt;script type="text/javascript">
+        fetch("https://willdotwhite.github.io/webring/data.json")
+            .then(async res => document.getElementById("output").textContent = JSON.stringify(await res.json(), undefined, 2))
+    &lt;/script>
+&lt;/div>
+</pre>
+
+</body>
+</html>
