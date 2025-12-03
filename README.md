@@ -27,7 +27,8 @@ Fill in your details in the JSON list - the setup is this:
 ```json
 {
   "name": "What name would you like to be referred to",
-  "title": "One line sentence that others can use to signpost your site",
+  "title": "Short title of your site/project",
+  "description": "One line sentence that others can use to signpost your site",
   "url": "https://theactuallyonlyimportantthinginthe.list"
 }
 ```
