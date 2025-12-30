@@ -44,7 +44,6 @@ Fill in your details in the JSON list - the setup is this:
 Pure HTML/CSS version is provided first, see note about actual implementation later.
 
 ```html
-<!-- Not pure HTML - see below -->
 <p class="webring header">
     Part of the <a href="https://willdotwhite.github.io/webring">Unofficial GMTK Webring!</a>
 </p>
