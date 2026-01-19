@@ -18,7 +18,7 @@ def shuffle_data_array():
         # (Move file pointer to position 0, write new list, bin off everything else)
         # This means we don't need to open the file a second time for writing
         file.seek(0)
-        file.write(json.dumps(webring_list, indent=4))
+        file.write(json.dumps(webring_list, indent=4, ensure_ascii=False))
         file.truncate()
 
 
