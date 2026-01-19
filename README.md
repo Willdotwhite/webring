@@ -6,21 +6,21 @@ I'm so good at naming things.
 
 This is a static JSON file accessible here: https://willdotwhite.github.io/webring/data.json
 
-All members of the community can fetch this file on demand and do whatever they like with it - traditional webring, list of people in an <aside>, interactive web game; the sky's the limit!
+All members of the community can fetch this file on demand and do whatever they like with it - traditional webring, list of people in an &lt;aside>, interactive web game; the sky's the limit!
 
-# Joining the webring
+## Joining the webring
 
 1. Submit a pull request to `data.json` to add yourself to the list
 2. Ping me to let me know you've done it
 3. Integrate it into your website somehow
 
-# Join Criteria
+### Join Criteria
 
 I know you, or someone I trust vouches for you :D
 
 This is not a public webring (yet) but a webring of friends and the cool stuff they do.
 
-# Adding your site to the code
+## Adding your site to the code
 
 Fill in your details in the JSON list - the setup is this:
 
@@ -32,6 +32,52 @@ Fill in your details in the JSON list - the setup is this:
   "url": "https://theactuallyonlyimportantthinginthe.list"
 }
 ```
+
+## Adding the webring to your site
+
+The list is shuffled daily, so your integration just needs to pull the JSON data down.
+
+<details>
+
+<summary>Pre-built JS reference function</summary>
+
+```js
+/**
+ * Get the webring neighbours for your URL!
+ * @credit Sophie<sophies.games>
+ */
+async function get_webring_neighbours(my_url) {
+    // Fetch webring json array
+    const request = await fetch('https://willdotwhite.github.io/webring/data.json');
+    const webring_array = await request.json();
+
+    // URLs are case-insensitive, so checks should be done with both sides of a comparison lowercased
+    my_url = my_url.toLowerCase();
+
+    // Find the index of your website in the ring
+    const my_index = webring_array.findIndex(obj => obj.url.toLowerCase().includes(my_url));
+    if (my_index === -1) {
+        throw new Error(`Your URL "${my_url}" was not found in the webring.`)
+    }
+
+    // Your left neighbour is the one before you in the list, hence -1
+    // Your right neighbour is the one after you in the list, hence +1
+    const left_neighbour_index = my_index - 1;
+    const right_neighbour_index = my_index + 1;
+
+    // To make the "ring" part of "webring" work we then wrap around to the start/end if either the left/right indicies go out of bounds
+    if (left_neighbour_index < 0) left_neighbour_index = webring_array.length - 1;
+    if (right_neighbour_index >= webring_array.length) right_neighbour_index = 0;
+
+    // Return a tuple where the first object is the left neighbour, the second object is the right neighbour
+    return [
+        webring_array[left_neighbour_index],
+        webring_array[right_neighbour_index]
+    ];
+}
+```
+
+</details>
 
 ## Reference: [ktyl.dev](https://ktyl.dev)
 
