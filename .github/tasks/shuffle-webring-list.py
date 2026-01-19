@@ -3,7 +3,9 @@ import json
 import random
 from datetime import datetime
 
-data_file_path = './../../data.json'
+# The GitHub Action runner runs from the root of the checked-out project,
+# so we don't need to wrangle file paths for this file
+data_file_path = f"data.json"
 
 
 def shuffle_data_array():
