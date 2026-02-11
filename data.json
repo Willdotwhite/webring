@@ -1,11 +1,5 @@
 [
     {
-        "name": "somnule",
-        "title": "good morning",
-        "description": "Daily photos, writing, media journals, games and curiosities",
-        "url": "https://kevinvognar.com"
-    },
-    {
         "name": "ktyl",
         "title": "ktyl.dev",
         "description": "computer engineer / artist · xr developer · writer",
@@ -16,5 +10,11 @@
         "title": "Badly Done Dev",
         "description": "Proof that not everyone should have their own website",
         "url": "https://badlydone.dev"
+    },
+    {
+        "name": "somnule",
+        "title": "good morning",
+        "description": "Daily photos, writing, media journals, games and curiosities",
+        "url": "https://kevinvognar.com"
     }
 ]
