@@ -1,9 +1,9 @@
 [
     {
-        "name": "Will",
-        "title": "Badly Done Dev",
-        "description": "Proof that not everyone should have their own website",
-        "url": "https://badlydone.dev"
+        "name": "somnule",
+        "title": "good morning",
+        "description": "Daily photos, writing, media journals, games and curiosities",
+        "url": "https://kevinvognar.com"
     },
     {
         "name": "ktyl",
@@ -12,9 +12,9 @@
         "url": "https://ktyl.dev"
     },
     {
-        "name": "somnule",
-        "title": "good morning",
-        "description": "Daily photos, writing, media journals, games and curiosities",
-        "url": "https://kevinvognar.com"
+        "name": "Will",
+        "title": "Badly Done Dev",
+        "description": "Proof that not everyone should have their own website",
+        "url": "https://badlydone.dev"
     }
 ]
