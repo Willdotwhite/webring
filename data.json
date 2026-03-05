@@ -1,15 +1,15 @@
 [
     {
-        "name": "Will",
-        "title": "Badly Done Dev",
-        "description": "Proof that not everyone should have their own website",
-        "url": "https://badlydone.dev"
-    },
-    {
         "name": "ktyl",
         "title": "ktyl.dev",
         "description": "computer engineer / artist · xr developer · writer",
         "url": "https://ktyl.dev"
+    },
+    {
+        "name": "Will",
+        "title": "Badly Done Dev",
+        "description": "Proof that not everyone should have their own website",
+        "url": "https://badlydone.dev"
     },
     {
         "name": "somnule",
