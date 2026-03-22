@@ -16,5 +16,11 @@
         "title": "Badly Done Dev",
         "description": "Proof that not everyone should have their own website",
         "url": "https://badlydone.dev"
+    },
+    {
+        "name": "madebygare",
+        "title": "Made by Gare",
+        "description": "Just a place to keep track of the random things I work on",
+        "url": "https://madebygare.com/"
     }
 ]
