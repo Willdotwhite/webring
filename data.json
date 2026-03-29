@@ -12,6 +12,12 @@
         "url": "https://alexrkeen.com"
     },
     {
+        "name": "somnule",
+        "title": "good morning",
+        "description": "Daily photos, writing, media journals, games and curiosities",
+        "url": "https://kevinvognar.com"
+    },
+    {
         "name": "madebygare",
         "title": "Made by Gare",
         "description": "Just a place to keep track of the random things I work on",
@@ -22,12 +28,6 @@
         "title": "Badly Done Dev",
         "description": "Proof that not everyone should have their own website",
         "url": "https://badlydone.dev"
-    },
-    {
-        "name": "somnule",
-        "title": "good morning",
-        "description": "Daily photos, writing, media journals, games and curiosities",
-        "url": "https://kevinvognar.com"
     },
     {
         "name": "Dom",
