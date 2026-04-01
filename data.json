@@ -1,9 +1,21 @@
 [
     {
-        "name": "madebygare",
-        "title": "Made by Gare",
-        "description": "Just a place to keep track of the random things I work on",
-        "url": "https://madebygare.com/"
+        "name": "Alex Keen",
+        "title": "Alex R. Keen",
+        "description": "Improviser, game designer, writer. Visit for the impeccable blogroll",
+        "url": "https://alexrkeen.com"
+    },
+    {
+        "name": "Will",
+        "title": "Badly Done Dev",
+        "description": "Proof that not everyone should have their own website",
+        "url": "https://badlydone.dev"
+    },
+    {
+        "name": "somnule",
+        "title": "good morning",
+        "description": "Daily photos, writing, media journals, games and curiosities",
+        "url": "https://kevinvognar.com"
     },
     {
         "name": "ktyl",
@@ -18,21 +30,9 @@
         "url": "https://domharris.uk"
     },
     {
-        "name": "somnule",
-        "title": "good morning",
-        "description": "Daily photos, writing, media journals, games and curiosities",
-        "url": "https://kevinvognar.com"
-    },
-    {
-        "name": "Alex Keen",
-        "title": "Alex R. Keen",
-        "description": "Improviser, game designer, writer. Visit for the impeccable blogroll",
-        "url": "https://alexrkeen.com"
-    },
-    {
-        "name": "Will",
-        "title": "Badly Done Dev",
-        "description": "Proof that not everyone should have their own website",
-        "url": "https://badlydone.dev"
+        "name": "madebygare",
+        "title": "Made by Gare",
+        "description": "Just a place to keep track of the random things I work on",
+        "url": "https://madebygare.com/"
     }
 ]
