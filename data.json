@@ -1,15 +1,9 @@
 [
     {
-        "name": "madebygare",
-        "title": "Made by Gare",
-        "description": "Just a place to keep track of the random things I work on",
-        "url": "https://madebygare.com/"
-    },
-    {
-        "name": "somnule",
-        "title": "good morning",
-        "description": "Daily photos, writing, media journals, games and curiosities",
-        "url": "https://kevinvognar.com"
+        "name": "Dom",
+        "title": "theChief",
+        "description": "Video games are my whole life, pity me.",
+        "url": "https://domharris.uk"
     },
     {
         "name": "Will",
@@ -18,10 +12,16 @@
         "url": "https://badlydone.dev"
     },
     {
-        "name": "Dom",
-        "title": "theChief",
-        "description": "Video games are my whole life, pity me.",
-        "url": "https://domharris.uk"
+        "name": "somnule",
+        "title": "good morning",
+        "description": "Daily photos, writing, media journals, games and curiosities",
+        "url": "https://kevinvognar.com"
+    },
+    {
+        "name": "madebygare",
+        "title": "Made by Gare",
+        "description": "Just a place to keep track of the random things I work on",
+        "url": "https://madebygare.com/"
     },
     {
         "name": "Alex Keen",
