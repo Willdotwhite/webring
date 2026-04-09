@@ -3,12 +3,8 @@ import json
 import random
 from datetime import datetime
 
-# The GitHub Action runner runs from the root of the checked-out project,
-# so we don't need to wrangle file paths for this file
-data_file_path = f"data.json"
 
-
-def shuffle_data_array():
+def shuffle_data_array(data_file_path):
     # Generate a seed that will order list deterministically
     seed: str = datetime.today().strftime('%Y%m%d')
     with open(data_file_path, 'r+') as file:
@@ -25,4 +21,7 @@ def shuffle_data_array():
 
 
 if __name__ == "__main__":
-    shuffle_data_array()
+    # The GitHub Action runner runs from the root of the checked-out project,
+    # so we don't need to wrangle file paths for these files
+    shuffle_data_array("data.json")
+    shuffle_data_array("gamedev.json")
