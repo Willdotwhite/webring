@@ -1,5 +1,11 @@
 [
     {
+        "name": "somnule",
+        "title": "good morning",
+        "description": "Daily photos, writing, media journals, games and curiosities",
+        "url": "https://kevinvognar.com"
+    },
+    {
         "name": "Alex Keen",
         "title": "Alex R. Keen",
         "description": "Improviser, game designer, writer. Visit for the impeccable blogroll",
@@ -12,10 +18,10 @@
         "url": "https://madebygare.com/"
     },
     {
-        "name": "Dom",
-        "title": "theChief",
-        "description": "Video games are my whole life, pity me.",
-        "url": "https://domharris.uk"
+        "name": "Will",
+        "title": "Badly Done Dev",
+        "description": "Proof that not everyone should have their own website",
+        "url": "https://badlydone.dev"
     },
     {
         "name": "ktyl",
@@ -24,15 +30,9 @@
         "url": "https://ktyl.dev"
     },
     {
-        "name": "Will",
-        "title": "Badly Done Dev",
-        "description": "Proof that not everyone should have their own website",
-        "url": "https://badlydone.dev"
-    },
-    {
-        "name": "somnule",
-        "title": "good morning",
-        "description": "Daily photos, writing, media journals, games and curiosities",
-        "url": "https://kevinvognar.com"
+        "name": "Dom",
+        "title": "theChief",
+        "description": "Video games are my whole life, pity me.",
+        "url": "https://domharris.uk"
     }
 ]
