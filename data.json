@@ -1,15 +1,27 @@
 [
     {
+        "name": "somnule",
+        "title": "good morning",
+        "description": "Daily photos, writing, media journals, games and curiosities",
+        "url": "https://kevinvognar.com"
+    },
+    {
+        "name": "ktyl",
+        "title": "ktyl.dev",
+        "description": "computer engineer / artist · xr developer · writer",
+        "url": "https://ktyl.dev"
+    },
+    {
         "name": "Alex Keen",
         "title": "Alex R. Keen",
         "description": "Improviser, game designer, writer. Visit for the impeccable blogroll",
         "url": "https://alexrkeen.com"
     },
     {
-        "name": "somnule",
-        "title": "good morning",
-        "description": "Daily photos, writing, media journals, games and curiosities",
-        "url": "https://kevinvognar.com"
+        "name": "Will",
+        "title": "Badly Done Dev",
+        "description": "Proof that not everyone should have their own website",
+        "url": "https://badlydone.dev"
     },
     {
         "name": "Dom",
@@ -22,17 +34,5 @@
         "title": "Made by Gare",
         "description": "Just a place to keep track of the random things I work on",
         "url": "https://madebygare.com/"
-    },
-    {
-        "name": "ktyl",
-        "title": "ktyl.dev",
-        "description": "computer engineer / artist · xr developer · writer",
-        "url": "https://ktyl.dev"
-    },
-    {
-        "name": "Will",
-        "title": "Badly Done Dev",
-        "description": "Proof that not everyone should have their own website",
-        "url": "https://badlydone.dev"
     }
 ]
