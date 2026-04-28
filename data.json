@@ -1,5 +1,17 @@
 [
     {
+        "name": "Dom",
+        "title": "theChief",
+        "description": "Video games are my whole life, pity me.",
+        "url": "https://domharris.uk"
+    },
+    {
+        "name": "madebygare",
+        "title": "Made by Gare",
+        "description": "Just a place to keep track of the random things I work on",
+        "url": "https://madebygare.com/"
+    },
+    {
         "name": "somnule",
         "title": "good morning",
         "description": "Daily photos, writing, media journals, games and curiosities",
@@ -12,12 +24,6 @@
         "url": "https://badlydone.dev"
     },
     {
-        "name": "madebygare",
-        "title": "Made by Gare",
-        "description": "Just a place to keep track of the random things I work on",
-        "url": "https://madebygare.com/"
-    },
-    {
         "name": "Alex Keen",
         "title": "Alex R. Keen",
         "description": "Improviser, game designer, writer. Visit for the impeccable blogroll",
@@ -28,11 +34,5 @@
         "title": "ktyl.dev",
         "description": "computer engineer / artist · xr developer · writer",
         "url": "https://ktyl.dev"
-    },
-    {
-        "name": "Dom",
-        "title": "theChief",
-        "description": "Video games are my whole life, pity me.",
-        "url": "https://domharris.uk"
     }
 ]
