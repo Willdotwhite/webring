@@ -6,6 +6,12 @@
         "url": "https://kevinvognar.com"
     },
     {
+        "name": "madebygare",
+        "title": "Made by Gare",
+        "description": "Just a place to keep track of the random things I work on",
+        "url": "https://madebygare.com/"
+    },
+    {
         "name": "Dom",
         "title": "theChief",
         "description": "Video games are my whole life, pity me.",
@@ -18,21 +24,15 @@
         "url": "https://ktyl.dev"
     },
     {
-        "name": "madebygare",
-        "title": "Made by Gare",
-        "description": "Just a place to keep track of the random things I work on",
-        "url": "https://madebygare.com/"
+        "name": "Will",
+        "title": "Badly Done Dev",
+        "description": "Proof that not everyone should have their own website",
+        "url": "https://badlydone.dev"
     },
     {
         "name": "Alex Keen",
         "title": "Alex R. Keen",
         "description": "Improviser, game designer, writer. Visit for the impeccable blogroll",
         "url": "https://alexrkeen.com"
-    },
-    {
-        "name": "Will",
-        "title": "Badly Done Dev",
-        "description": "Proof that not everyone should have their own website",
-        "url": "https://badlydone.dev"
     }
 ]
