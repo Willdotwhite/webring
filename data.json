@@ -1,11 +1,5 @@
 [
     {
-        "name": "ktyl",
-        "title": "ktyl.dev",
-        "description": "computer engineer / artist · xr developer · writer",
-        "url": "https://ktyl.dev"
-    },
-    {
         "name": "madebygare",
         "title": "Made by Gare",
         "description": "Just a place to keep track of the random things I work on",
@@ -18,6 +12,18 @@
         "url": "https://domharris.uk"
     },
     {
+        "name": "ktyl",
+        "title": "ktyl.dev",
+        "description": "computer engineer / artist · xr developer · writer",
+        "url": "https://ktyl.dev"
+    },
+    {
+        "name": "Will",
+        "title": "Badly Done Dev",
+        "description": "Proof that not everyone should have their own website",
+        "url": "https://badlydone.dev"
+    },
+    {
         "name": "Alex Keen",
         "title": "Alex R. Keen",
         "description": "Improviser, game designer, writer. Visit for the impeccable blogroll",
@@ -28,11 +34,5 @@
         "title": "good morning",
         "description": "Daily photos, writing, media journals, games and curiosities",
         "url": "https://kevinvognar.com"
-    },
-    {
-        "name": "Will",
-        "title": "Badly Done Dev",
-        "description": "Proof that not everyone should have their own website",
-        "url": "https://badlydone.dev"
     }
 ]
